@@ -1,8 +1,6 @@
 import streamlit as st
 from langchain.prompts import PromptTemplate
-from langchain.llms import CTransformers #it helps in calling hugging face model or call it from local
-
-## Function to get response from my Lama-2 model
+from langchain.llms import CTransformers 
 
 def getLLamaresponse(input_text, no_words,blog_style):
 
